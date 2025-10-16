@@ -47,8 +47,6 @@ public class UserService {
         Response response = new Response();
 
         if (optionalUser.isPresent()){
-            response.setCode(200);
-            response.setStatus("success");
             response.setMessage("El usuario con id: " + id + "se ha eliminado correctamente");
             return response;
         }
