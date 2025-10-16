@@ -10,27 +10,25 @@ public class User {
     private String name;
     private String lastname;
 
-    public int getId() {
-        return id;
+    public String getLastname() {
+        return lastname;
     }
-
-    public void setId(int id) {
-        this.id = id;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getLastname() {
-        return lastname;
+    public int getId() {
+        return id;
     }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public void setId(Integer Id) {
+        this.id = Id;
     }
 }
+
